@@ -1,0 +1,175 @@
+.container{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $color-1;
+
+    @media screen and (max-width: 907px) {
+        min-width: 907px;
+    }
+
+    @media screen and (max-width: 768px) {
+        min-width: 768px;
+    }
+
+    @media screen and (max-width: 425px) {
+        min-width: 425px;
+    }
+    
+    @media screen and (max-width: 375px) {
+        min-width: 375px;
+    }
+
+    @media screen and (max-width: 320px) {
+        min-width: 320px;
+    }
+
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14rem;
+
+    @media screen and (max-width: 997px) {
+        padding-top: 10rem;
+    }
+    
+}
+
+.text-style{
+    font-size: 75px;
+    color: $white;
+    font-family: $font-1;
+    font-weight: normal;
+    overflow-wrap: break-word;
+
+    @media screen and (max-width: 997px) {
+        width: 60%;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 425px) {
+        font-size: 42px;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 39px;
+    }
+
+    @media screen and (max-width: 320px) {
+        font-size: 33px;
+    }
+}
+
+.text-style-2{
+    font-size: 22px;
+    font-weight: bold;
+    color: $color-2;
+    padding: 2rem 0 2rem 0;
+}
+
+.btn-container {
+    @media screen and (max-width: 425px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.btn {
+    width: 14rem;
+    height: 4rem;
+    margin-right: 1rem;
+    background: $color-3;
+    border: 10px;
+    border-radius: $radius;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $white;
+    letter-spacing: 1px;
+    &:hover{
+        background: $color-4;
+    }
+    
+    @media screen and (max-width: 425px) {
+        margin-right: 0rem;
+    }
+}
+
+.btn span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 20px;
+    transition: 0.2s;
+}
+
+.btn:hover span {
+    padding-left: 25px;
+    
+}
+
+.btn:hover span::after {
+    opacity: 1;
+    left: 0;
+}
+
+.btn-2 {
+    width: 11rem;
+    height: 4rem;
+    background: $white;
+    border: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-3;
+    letter-spacing: 1px;
+
+    @media screen and (max-width: 425px) {
+        margin-top: 2rem ;
+    }
+}
+
+.btn-2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.2s;
+}
+
+.btn-2:hover span {
+    padding-right: 25px;
+    
+}
+
+.btn-2:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+
+

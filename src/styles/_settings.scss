@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+$font-1: 'Yeseva One';
+$font-2: 'Montserrat', sans-serif;
+
+$color-1: #C5D3D6;
+$color-2: #7c8587;
+$color-3: #2f3854;
+$color-4: #545e7a;
+$color-5: #7C8587;
+$white: rgb(255, 253, 253);
+$black: #333;
+
+$radius: 60px;
+$shadow: 0 1px 3px #333;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font-2
+}
+
+
+  
+button {
+    cursor: pointer;
+}
+  
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+a:visited {
+    color:$black;
+}
