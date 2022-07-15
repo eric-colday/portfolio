@@ -1,0 +1,27 @@
+.navbar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+}
+
+.navigation{
+    display: flex;
+    color: $color-6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+li{
+    padding-right: 25px;
+}
+
+.navActive{
+    color: $color-7;
+}

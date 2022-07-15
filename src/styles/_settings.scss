@@ -8,6 +8,8 @@ $color-2: #7c8587;
 $color-3: #2f3854;
 $color-4: #545e7a;
 $color-5: #7C8587;
+$color-6: #6b6b6b;
+$color-7: #468cff;
 $white: rgb(255, 253, 253);
 $black: #333;
 
@@ -18,7 +20,13 @@ $shadow: 0 1px 3px #333;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: $font-2
+    outline: none;
+    
+}
+
+body {
+    margin: 0;
+    font-family: $font-2;
 }
 
 
@@ -27,16 +35,18 @@ button {
     cursor: pointer;
 }
   
-li {
+ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: $black;
+    // color: $color-6;
     cursor: pointer;
 }
 
 a:visited {
-    color:$black;
+    // color:$color-6;
 }

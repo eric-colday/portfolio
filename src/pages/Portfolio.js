@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
 
-export default function NotFound() {
+const Portfolio = () => {
   return (
     <header className="header">
       <Header />
     </header>
   )
 }
+
+export default Portfolio
