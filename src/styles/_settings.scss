@@ -29,7 +29,24 @@ body {
     font-family: $font-2;
 }
 
+h2{
+    font-family: $font-1;
+    color: $color-6;
+    font-size: 74px;
+    font-weight: normal;
+}
 
+h3{
+    font-family: $font-1;
+    color: $color-6;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 30px 0 15px 0;
+}
+
+h4 {
+    color: $color-6;
+}
   
 button {
     cursor: pointer;
@@ -43,10 +60,14 @@ ul{
 
 a {
     text-decoration: none;
-    // color: $color-6;
+    color: $color-6;
     cursor: pointer;
 }
 
 a:visited {
-    // color:$color-6;
+    color:$color-6;
+}
+
+a.nav-tive{
+    color: $color-7;
 }

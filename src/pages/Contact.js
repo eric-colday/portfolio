@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 
 const Contact = () => {
   return (
     <header className="header">
-      <Header />
+      <Navbar />
     </header>
   )
 }

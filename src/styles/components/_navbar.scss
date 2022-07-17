@@ -2,12 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     width: 100%;
     min-height: 75px;
-    padding: 1rem;
     color: $color-6;
+}
+
+.navbar-logo {
+    width: 150px;
+    height: 75px;
 }
 
 .navbar-links{
@@ -16,8 +20,12 @@
 
 .navbar-link{
     padding: 0 0.3rem;
-    color: inherit;
+    color: $color-6;
+    font-size: 18px;
+    font-weight: 500;
 }
+
+
 
 .navbar-burger{
     width: 40px;
@@ -29,6 +37,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
     .navbar-links {
         flex-direction: column;
         justify-content: center;
