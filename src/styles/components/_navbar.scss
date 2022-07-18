@@ -68,7 +68,7 @@
         margin: 0 auto;
         width: 3vw;
         height: 1px;
-        background: black;
+        background: $black;
     }
 
     .navbar-item:last-child:after{
@@ -84,8 +84,8 @@
     .navbar-burger{
         display: block;
         position: fixed;
-        top: 1rem;
-        right: 1rem;
+        top: 2rem;
+        right: 2rem;
     }
 
     .navbar-burger:hover{
@@ -100,7 +100,7 @@
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background: black;
+        background: $black;
         transition: all .5s ease-in-out;
     }
 
