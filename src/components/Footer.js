@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footerList">
         <span> ericcoldaynoubissi - 2022</span>
         <ul className="footerListItems">
@@ -28,7 +28,7 @@ const Footer = () => {
             </li>
         </ul>
       </div>
-    </div>
+    </footer>
   )
 }
 
