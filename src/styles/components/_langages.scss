@@ -1,8 +1,21 @@
 .languagesFrameworks {
     background: $color-1;
     width: 48%;
-    height: 32rem;
+    height: 33rem;
     margin: auto;
     border-radius: 2%;
     padding: 0 42px 0 58px;
+}
+
+@media screen and (max-width: 768px) {
+    .languagesFrameworks {
+        height: 36rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .languagesFrameworks{
+        width: 100%;
+        border-radius: initial;
+    }
 }

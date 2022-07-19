@@ -4,7 +4,7 @@ class OthersSkills extends Component {
     render() {
         return (
             <div className="othersSkills">
-                <h3>Autres compétences</h3>
+                <h3 className="progressbar-title-2">Autres compétences</h3> 
                 <div className="list">
                     <ul>
                         <li>

@@ -1,8 +1,51 @@
 .othersSkills{
     background: #C5D3D6;
-    width: 48%;
-    height: 32rem;
-    margin: auto;
+    width: 100%;
+    height: 19rem;
+    margin-bottom: 1rem;
     border-radius: 2%;
     padding: 0 42px 0 58px;
+}
+
+.progressbar-title-2{
+  color: $white;
+  font-size: 28px;
+}
+
+.list {
+    display: flex;
+    height: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: $color-2;
+
+    ul {
+      height: 80%;
+      display: grid;
+
+      i {
+        color: $color-2;
+      }
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .othersSkills{
+      height: 20rem;
+  }
+
+  .list{
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .othersSkills{
+    background: white;
+    border-radius: initial;
+  }
+
+  .progressbar-title-2{
+    color: $color-2;
+  }
 }

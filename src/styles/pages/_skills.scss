@@ -1,8 +1,36 @@
 .skills{
     width: 100%;
-    height: 40rem;
-    padding: 7rem 0 0 0;
+    height: 42rem;
+    padding: 6rem 0 0 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .skills{
+        height: 44rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 78rem;
+    }
+
+    .skills-2{
+        width: 100%;
+    }
 }
