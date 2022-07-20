@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 
 
 export default function Home() {
+
+
   return (
     <main className="container">
       <div className="box-container">
+        <span className="text-style-2">Salut, je suis </span>
         <h2 className="text-style">Eric Colday Noubissi</h2>
-        <p className="text-style-2">Développeur Web</p>
+            <span className="text-style-3"> 
+            Développeur Web/Mobile </span>
         <div className="btn-container">
           <a href="./media/cv-eric_colday-noubissi.pdf" target="_blank">
             <button className="btn"> 
