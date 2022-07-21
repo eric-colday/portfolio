@@ -107,7 +107,7 @@ export const portfolioData = [
         site: 'https://project-kasa-nec.netlify.app/',
         source: 'https://github.com/eric-colday/kasa',
         info: '',
-        picture: './media/7.jpg'
+        picture: './media/8.jpg'
     },
     {
         id: 12,
@@ -117,7 +117,7 @@ export const portfolioData = [
         site: 'https://nec-store-ui.netlify.app/',
         source: 'https://github.com/eric-colday/nec-store-ui',
         info: '',
-        picture: './media/7.jpg'
+        picture: './media/9.jpg'
     },
     {
         id: 13,
@@ -127,7 +127,7 @@ export const portfolioData = [
         site: 'https://admin-ui-nec-store.netlify.app/',
         source: 'https://github.com/eric-colday/admin-ui-nec-store',
         info: '',
-        picture: './media/7.jpg'
+        picture: './media/10.jpg'
     },
     {
         id: 14,
@@ -137,12 +137,12 @@ export const portfolioData = [
         site: 'https://necbooking-clone.netlify.app/',
         source: 'https://github.com/eric-colday/booking-clone',
         info: '',
-        picture: './media/7.jpg'
+        picture: './media/11.jpg'
     },
     {
       id: 100,
       name: 'RS',
-      languages: ['javascript','react', 'css'],
+      languages: ['mern'],
       languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
       site: '',
       source: 'https://github.com/eric-colday/mern-projet',
