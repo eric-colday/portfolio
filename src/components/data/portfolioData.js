@@ -131,7 +131,7 @@ export const portfolioData = [
     },
     {
         id: 14,
-        name: 'nec booking clone',
+        name: 'nec booking ',
         languages: ['javascript','react', 'css'],
         languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
         site: 'https://necbooking-clone.netlify.app/',
