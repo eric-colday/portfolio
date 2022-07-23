@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Langages from '../components/Langages'
 import OthersSkills from '../components/OthersSkills'
 import Hobbies from '../components/Hobbies'
+import ContactForm from '../components/ContactForm'
 
 
 const Skills = () => {
@@ -19,6 +20,7 @@ const Skills = () => {
           <Hobbies/>
         </div>
       </main>
+      <ContactForm/>
       <Footer />
     </div>
   )
