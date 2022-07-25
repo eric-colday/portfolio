@@ -1,44 +1,44 @@
 import React from 'react'
-import { useState } from "react";
-import emailjs from 'emailjs-com';
-import { useRef } from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const ContactForm = () => {
-  const [message, setMessage] = useState(false);
-  const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-    .sendForm(
-      'service_ey10kdh', 
-      'template_kfrrmrj', 
-      form.current, 
-      'dxrha_OOuhjt2tjQX'
-    )
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
-    setMessage(true);
-  };
   return (
     <div className="contact">
       <div className="left">
         <img src="media/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact</h2>
-        <form ref={form} onSubmit={handleSubmit}>
-          <input type="text" name="name" placeholder="Nom"/>
-          <br/>
-          <input type="email" name="user_email" placeholder="Email" />
-          <br/>
-          <textarea placeholder="Message" name="message"></textarea>
-          <button type="submit">Envoi</button>
-          {message && <span>Merci, je vous répondrai d'ici peu :)</span>}
-        </form>
+        <div className="contactBox">
+          <h2>Contactez-moi</h2>
+          <ul>
+              <li>
+                  <i className="fas fa-map-marker-alt"></i>
+                  <span>3 rue Oberlin, <br /> 
+                        67000 Strasbourg</span>
+              </li>
+              <li>
+                  <i className="fas fa-mobile-alt"></i>
+                  <CopyToClipboard text="0698342060">
+                      <span 
+                          className="clickInput"
+                          onClick={() => {alert ('Téléphone copié!');}}>
+                              06 98 34 20 60
+                      </span>
+                  </CopyToClipboard>
+              </li>
+              <li>
+                  <i className="fas fa-envelope"></i>
+                  <CopyToClipboard text="rcnoubissi@gmail.com">
+                      <span 
+                          className="clickInput"
+                          onClick={() => {alert ('E-mail copié!');}}>
+                              rcnoubissi@gmail.com
+                      </span>
+                  </CopyToClipboard>
+              </li>
+          </ul>
+        </div>
       </div>
     </div>
   )
