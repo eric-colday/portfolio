@@ -7,7 +7,7 @@ export const portfolioData = [
       site: 'https://eric-colday.github.io/Booki/',
       source: 'https://github.com/eric-colday/Booki',
       info: 'Démarrer sur HTML et CSS en intégrant la page Web de Booki, une plateforme de réservation de vacances.',
-      picture: './media/booki.JPG'
+      picture: './media/booki.jpg'
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export const portfolioData = [
       site: 'https://eric-colday.github.io/NoubissiEricColday_3_17122021/index.html',
       source: 'https://github.com/eric-colday/NoubissiEricColday_3_17122021',
       info: 'Implémenter la version mobile d un site de foodtech avec des animations CSS.',
-      picture: './media/ohmyfood.JPG'
+      picture: './media/Ohmyfood.jpg'
     },
     {
       id: 3,

@@ -11,7 +11,7 @@ const ContactForm = () => {
       <div className="right">
         <div className="contactBox">
           <h2>Contactez-moi</h2>
-          <ul>
+          <ul className="ul">
               <li>
                   <i className="fas fa-map-marker-alt"></i>
                   <span>3 rue Oberlin, <br /> 
