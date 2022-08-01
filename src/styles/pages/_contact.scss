@@ -41,7 +41,7 @@
   
 }
 
-h2 {
+.h22 {
   text-align: center;
   font-family: $font-1;
   margin-top: 0.3rem;
@@ -50,7 +50,7 @@ h2 {
   color: $white;
 
   &:after {
-    content: '';
+    content: ''; 
     height: 1px;
     width: 50%;
     background: $white;

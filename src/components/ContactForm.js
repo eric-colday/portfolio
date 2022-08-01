@@ -10,7 +10,7 @@ const ContactForm = () => {
       </div>
       <div className="right">
         <div className="contactBox">
-          <h2>Contactez-moi</h2>
+          <h2 className="h22">Contactez-moi</h2>
           <ul className="ul">
               <li>
                   <i className="fas fa-map-marker-alt"></i>
